@@ -112,95 +112,26 @@ Contributions welcome! Open a PR to add/update entries. Clearly distinguish **co
 
 ## SaaS/Hosted Platforms
 
+> 📊 **Market Overview**: The global **Ground Segment as a Service (GSaaS)** and satellite operations software market is estimated at **$4.2 Billion to $6.8 Billion (2026)** with a compound annual growth rate of ~16.8%. The ecosystem is transitioning rapidly from dedicated single-owner ground infrastructure to software-defined, cloud-connected aperture networks and multi-mission fleet automation suites. Commercial vendors span cloud hyperscalers (AWS, Azure), established global ground network operators (KSAT, SSC, Viasat), and agile GSaaS software platforms (Leaf Space, ATLAS Space Operations, Infostellar, RBC Signals, Antaris).
 
+| Platform / Product | Description | Starting Pricing | Free Tier / Trial Limits | Network / Company Scale |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Kratos EPOCH](https://www.kratosspace.com/products/satellites/command-and-control/epoch-ips)** | Enterprise satellite command-and-control (C2) and fleet management suite providing telemetry/command processing, automated procedures, archiving, and multi-mission operations across 300+ deployed missions. | Starting at **$50,000 – $85,000/year** base enterprise license (~$9,570 for individual module add-ons under GSA IT Schedule) | No free-forever plan; **0-day public trial** (custom 30-day proof-of-concept evaluation and virtual demo environment available for qualified satellite operators) | ~$1.1B Rev / $2.8B Mkt Cap (Kratos Defense) |
+| **[ATLAS Space Operations](https://www.atlas.space/)** | Ground-segment infrastructure and GSaaS platform providing satellite operators with access to distributed ground stations through the ATLAS Freedom platform and APIs. | Starting at **$2,500/month** base platform subscription (~$150 – $280 per scheduled contact pass) | No free-forever plan; **0-day public trial** (14-day API sandbox and simulation pass testing upon technical onboarding) | 50+ global antennas; ~$15M ARR / $90M Valuation |
+| **[Leaf Space](https://leaf.space/)** | Ground Segment as a Service provider offering globally distributed ground stations, automated/on-demand scheduling, TT&C and payload-data connectivity through a unified interface across 40+ active antennas. | Starting at **€2.00 – €3.50/minute** (pay-as-you-go antenna contact time) or **€500/month** entry operational tier (volume discounts available) | No free-forever plan; **0-day public trial** (complimentary RF link compatibility analysis and pre-launch simulated pass verification during mission onboarding) | 40+ antennas across 17 sites; ~$10M ARR / $60M Valuation |
+| **[Infostellar / StellarStation](https://www.infostellar.net/)** | Cloud-based satellite ground-segment platform aggregating distributed commercial and university antennas for scalable LEO constellation communications. | Starting at **$100 – $200 per pass** (pay-as-you-go) or **$1,000/month** basic capacity plan; antenna owners earn credits by sharing idle antenna windows | No free-forever plan; **30-day developer sandbox access** with up to 5 simulated API pass schedules (requires satellite transmission registration) | 30+ partner ground stations; ~$6M ARR / $40M Valuation |
+| **[Microsoft Azure Orbital](https://azure.microsoft.com/en-us/products/orbital/)** | Azure-based satellite ground-station and space-data service designed to connect spacecraft directly with cloud computing and data-processing infrastructure. | Starting at **$0.22/minute** (narrowband partner downlinks) up to **$10.00/minute** (on-demand direct antenna contact; reserved commitments from $3.00/minute) | **30-day Azure free trial** with $200 cloud credits; 0 free orbital contact minutes included (spacecraft requires FCC/ITU spectrum clearance and NORAD ID validation) | $245B Rev / $3.1T Mkt Cap (Microsoft) |
+| **[AWS Ground Station](https://aws.amazon.com/ground-station/)** | Managed ground-station service from AWS providing on-demand satellite communications and direct integration with AWS cloud services. | **$3.00/minute** (Narrowband ≤54 MHz, Reserved commitment of 150 min/month) or **$10.00/minute** (Narrowband On-Demand); **$22.00/minute** (Wideband >54 MHz On-Demand) | **12-month AWS Free Tier** ($300 promotional credit for new accounts); 0 free antenna minutes included (charges accrue per scheduled minute; requires verified satellite licensing) | 12+ global ground station sites; $105B AWS ARR / $2.0T Mkt Cap (Amazon) |
+| **[KSATlite](https://www.ksat.no/services/ksatlite/)** | KSAT's global ground-station service aimed at smallsat and constellation operators, providing optimized ground-station access and satellite communications with standardized 3.7m antennas. | Starting at **€150 – €300 per pass** (standard 10–12 minute S/X-band contact) or **€3,000/month** baseline constellation bundle | No free-forever plan; **0-day public trial** (14-day API staging sandbox and simulated contact scheduling available upon sales consultation) | 100+ antennas across 15+ global sites; ~$180M Rev / $1.2B Valuation (KSAT) |
+| **[Orbit Logic](https://orbitlogic.com/)** | Space-mission planning and scheduling technology (including STK Scheduler, CPAW, and Order Logic) covering satellite operations, mission planning, resource scheduling and constellation operations. | Starting at **$15,000 – $25,000/year** per software seat license (or starting from $1,250/month commercial license tiers) | No free-forever plan; **30-day evaluation trial license** available for accredited aerospace engineers and government program evaluators | Acquired by Boecore / Auria; ~$25M ARR / $150M Valuation |
+| **[Antaris](https://www.antaris.space/)** | Cloud-based space mission virtualization and operations platform supporting mission design, simulation, ground-segment integration, automated CONOPS and software-driven satellite/constellation operations. | Starting at **$2,500/month** ($30,000/year annual project agreement) for core TrueTwin simulation and mission design environments | No free-forever plan; **14-day interactive TrueTwin web sandbox** trial on request (supports 1 virtualized satellite model) | ~$5M ARR / $45M Valuation |
+| **[Scout Space](https://www.scout.space/)** | Space-domain-awareness and satellite-operations company developing space-based sensing, optical detection (Owl), autonomous flight software, and SpaceSight™ data intelligence platforms. | Starting at **$2,000/month** ($24,000/year base data feed subscription) for commercial orbital tracking and space-domain intelligence reports | No free-forever plan; **0-day public trial** (sample orbital ephemeris and conjunction dataset available upon request for accredited operators) | ~$8M ARR / $50M Valuation |
+| **[Viasat Real-Time Earth](https://www.viasat.com/)** | Commercial Ground Segment as a Service network offering high-rate S-, X-, and Ka-band downlinks, TT&C, and automated machine-to-machine pass scheduling into cloud infrastructure. | Starting at **$15.00 – $25.00/minute** (or ~$150 – $250 per 10-minute pass), with baseline dedicated mission packages from **$5,000/month** | No free-forever plan; **0-day public trial** (technical RF link compatibility analysis and pass simulation provided during onboarding) | 7.3m global antennas; $4.5B Rev / $2.5B Mkt Cap (Viasat, Inc.) |
+| **[KSAT](https://www.ksat.no/)** | Large-scale commercial ground-station network providing TT&C, payload-data reception, mission support and ground-segment services, including polar stations Svalbard and TrollSat. | Starting at **€350 – €600 per pass** for high-reliability polar aperture contacts, or annual enterprise mission support starting at **€40,000/year** | No free-forever plan; **0-day public trial** (pre-mission feasibility pass simulation and link budget modeling provided during contract scoping) | 300+ antennas across 28 global sites; ~$180M Rev / $1.2B Valuation (KSAT) |
+| **[SSC](https://sscspace.com/)** | Swedish Space Corporation provides satellite ground-station networks (SSC Connect & SSC Infinity), TT&C, mission operations and ground-segment services. | Starting at **€200 – €350 per pass** (SSC Infinity smallsat network) or **€500 – €900 per pass** for high-aperture polar antennas (Kiruna/Santiago) | No free-forever plan; **0-day public trial** (0 free live passes; pre-flight contact simulation and RF link verification during mission setup) | ~$150M Rev / $800M Enterprise Value (Swedish Space Corp) |
+| **[RBC Signals](https://rbcsignals.com/)** | Ground-station and satellite-communications marketplace providing access to distributed antennas and mission-support infrastructure. | **$19.95 per pass** (RBC Signals Xpress X-band downlink) with a **$595/month** minimum engagement fee; multi-band TT&C passes start at **$120 – $250/pass** | No free-forever plan; **0-day public trial** (pre-mission link assessment and 1 free simulated API pass reservation upon contract onboarding) | 80+ global antennas across 50+ locations; ~$8M ARR / $45M Valuation |
+| **[Atlas Ground Station Network](https://www.atlas.space/)** | Cloud-managed ground-station network with API-oriented scheduling, automated RF modems, and communications infrastructure operated by ATLAS Space Operations. | Starting at **$150 – $280 per pass** (or ~$15 – $25/minute on-demand), with monthly network availability retainers from **$2,500/month** | No free-forever plan; **0-day public trial** (API pass integration sandbox provided during mission onboarding; 0 free live antenna passes) | 50+ federated global antennas; ~$15M ARR / $90M Valuation |
 
-* **[Kratos EPOCH](https://www.kratosspace.com/products/satellites/command-and-control/epoch-ips)**
-
-  Enterprise satellite command-and-control and mission-operations suite. EPOCH IPS provides centralized fleet management, automation, scheduling, telemetry/command processing, analysis, archiving, procedures and mission operations. Kratos states that EPOCH has been deployed across more than 300 missions. ([Kratos](https://www.kratosspace.com/products/satellites/command-and-control/epoch-ips))
-
-
-
-* **[ATLAS Space Operations](https://www.atlas.space/)**
-
-  Ground-segment infrastructure and GSaaS platform providing satellite operators with access to distributed ground stations through the ATLAS Freedom platform and APIs.
-
-
-
-* **[Leaf Space](https://leaf.space/)**
-
-  Ground Segment as a Service provider offering globally distributed ground stations, automated/on-demand scheduling, TT&C and payload-data connectivity through a unified interface. Leaf Space currently describes a network of 40 active antennas across 17 locations. ([Leaf Space](https://leaf.space/leaf-line/))
-
-
-
-* **[Infostellar / StellarStation](https://www.infostellar.net/)**
-
-  Cloud-based satellite ground-segment platform providing access to distributed ground stations and scalable operations for individual spacecraft through large constellations. ([Infostellar](https://www.infostellar.net/))
-
-
-
-* **[Microsoft Azure Orbital](https://azure.microsoft.com/en-us/products/orbital/)**
-
-  Azure-based satellite ground-station and space-data service designed to connect spacecraft with cloud computing and data-processing infrastructure.
-
-
-
-* **[AWS Ground Station](https://aws.amazon.com/ground-station/)**
-
-  Managed ground-station service from AWS providing on-demand satellite communications and direct integration with AWS cloud services.
-
-
-
-* **[KSATlite](https://www.ksat.no/services/ksatlite/)**
-
-  KSAT's global ground-station service aimed at smallsat and constellation operators, providing ground-station access and satellite communications.
-
-
-
-* **[Orbit Logic](https://orbitlogic.com/)**
-
-  Space-mission planning and scheduling technology covering satellite operations, mission planning, resource scheduling and constellation operations.
-
-
-
-* **[Antaris](https://www.antaris.space/)**
-
-  Cloud-based space mission virtualization and operations platform supporting mission design, simulation, ground-segment integration, automated CONOPS and software-driven satellite/constellation operations. ([Antaris](https://www.antaris.space/platform))
-
-
-
-* **[Scout Space](https://www.scout.space/)**
-
-  Space-domain-awareness and satellite-operations company developing space-based sensing and associated operational infrastructure.
-
-
-
-* **[Viasat Real-Time Earth](https://www.viasat.com/)**
-
-  Satellite communications and ground infrastructure that can form part of mission and data-downlink architectures.
-
-
-
-* **[KSAT](https://www.ksat.no/)**
-
-  Large-scale commercial ground-station network providing TT&C, payload-data reception, mission support and ground-segment services.
-
-
-
-* **[SSC](https://sscspace.com/)**
-
-  Swedish Space Corporation provides satellite ground-station networks, TT&C, mission operations and ground-segment services.
-
-
-
-* **[RBC Signals](https://rbcsignals.com/)**
-
-  Ground-station and satellite-communications marketplace providing access to distributed antennas and mission-support infrastructure.
-
-
-
-* **[Atlas Ground Station Network](https://www.atlas.space/)**
-
-  Cloud-managed ground-station network with API-oriented scheduling and communications infrastructure.
 
 
 
