@@ -104,7 +104,7 @@ The table below lists leading commercial SaaS/hosted satellite operations platfo
 
 ## 🔓 Open-Source GitHub Projects
 
-> ⭐️ **Sorted by GitHub Stars (Descending)**. Every star badge links directly to the stargazers page of that repository.
+> ⭐️ **Sorted by GitHub_Stars (Descending)**. Every star badge links directly to the stargazers page of that repository.
 
 * **[Grafana](https://github.com/grafana/grafana)** [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
   Open-source visualization and operational dashboard engine for telemetry and ground station metrics.
